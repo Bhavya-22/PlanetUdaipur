@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- Attractions category -->
+    <FrameLayout
+        tools:ignore="so that we can use android background two times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_attractions">
+        <TextView
+            android:id="@+id/attractions"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_attractions" />
+    </FrameLayout>
+
+    <!-- Accommodation category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_accommodation">
+        <TextView
+            android:id="@+id/accommodation"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_accommodation" />
+    </FrameLayout>
+
+    <!-- Restaurants category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+        <TextView
+            android:id="@+id/restaurants"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_restaurants" />
+    </FrameLayout>
+
+    <!-- Shopping  PLaces category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_shopping_places">
+        <TextView
+            android:id="@+id/shopping_places"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_shopping_places" />
+    </FrameLayout>
+
+    <!-- Nearby PLaces category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_nearby_places">
+        <TextView
+            android:id="@+id/nearby_places"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_nearby_places" />
+    </FrameLayout>
+</LinearLayout>

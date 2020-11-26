@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UdaipurTourGuide</string>
+
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants/Eating Joints</string>
+
+    <!-- Category name for accommodation  -->
+    <string name="category_accommodation">Accommodation</string>
+
+    <!-- Category name for attractions -->
+    <string name="category_attractions">Attractions</string>
+
+    <!-- Category name for shopping places  -->
+    <string name="category_shopping_places">Shopping Places</string>
+
+    <!-- Category name for nearby places across Udaipur -->
+    <string name="category_nearby_places">Nearby Places</string>
+</resources>
